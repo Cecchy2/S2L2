@@ -80,17 +80,17 @@ console.log(totalShoppingCart - discount + " questo è il prezzo finale");
 const val1 = 12;
 const val2 = 87;
 const val3 = 105;
-if (val1 >= val2 && val2 >= val3) {
-  console.log(val1, val2, val3);
+if (val1 >= val2) {
+  if (val2 <= val3) console.log(val1, val2, val3);
 }
-if (val2 >= val1 && val1 >= val3) {
-  console.log(val2, val1, val3);
+if (val2 >= val1) {
+  if (val1 >= val3) console.log(val2, val1, val3);
 }
-if (val3 >= val1 && val1 >= val2) {
-  console.log(val3, val1, val2);
+if (val3 >= val1) {
+  if (val1 >= val2) console.log(val3, val1, val2);
 }
-if (val3 >= val2 && val2 >= val1) {
-  console.log(val3 + val2 + val1);
+if (val3 >= val2) {
+  if (val2 >= val1) console.log(val3, val2, val1);
 }
 
 /* ESERCIZIO 8
