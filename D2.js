@@ -93,6 +93,9 @@ console.log("il valore della variabile sort1 è una: " + typeof tipo);
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
 const numeroN = 15;
 
 if (numeroN % 2 === 0) {
@@ -100,8 +103,6 @@ if (numeroN % 2 === 0) {
 } else {
   console.log("il numero è dispari");
 }
-
-/* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
