@@ -53,11 +53,12 @@ if (numero1 === 8 || numero2 === 8) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let totalShoppingCart = 40;
+let totalShoppingCart = 25;
 const shippingCost = 10;
-if (totalShoppingCart < 50) {
-  console.log(totalShoppingCart + shippingCost);
+if (totalShoppingCart <= 50) {
+  totalShoppingCart += shippingCost;
 }
+console.log("adesso il totale del carrello è: " + totalShoppingCart);
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
@@ -65,10 +66,9 @@ if (totalShoppingCart < 50) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const discount = ((totalShoppingCart + shippingCost) * 20) / 100;
+const discount = (totalShoppingCart * 20) / 100;
 console.log("questo è lo sconto " + discount);
-
-console.log(totalShoppingCart + shippingCost + discount + " questo è il prezzo finale");
+console.log(totalShoppingCart - discount + " questo è il prezzo finale");
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
