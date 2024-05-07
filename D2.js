@@ -6,9 +6,9 @@
 const int1 = 20;
 const int2 = 30;
 if (int1 > int2) {
-  console.log("Il numero maggiore è 20");
+  console.log("Il numero maggiore è " + int1);
 } else {
-  console.log("il numero maggiore è 30");
+  console.log("il numero maggiore è " + int2);
 }
 
 /* ESERCIZIO 2
@@ -77,9 +77,21 @@ console.log(totalShoppingCart - discount + " questo è il prezzo finale");
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const sort = [12, 7, 99];
-sort.sort();
-console.log("questi sono i numeri ordinati in maniera crescente " + sort);
+const val1 = 12;
+const val2 = 87;
+const val3 = 105;
+if (val1 >= val2 && val2 >= val3) {
+  console.log(val1, val2, val3);
+}
+if (val2 >= val1 && val1 >= val3) {
+  console.log(val2, val1, val3);
+}
+if (val3 >= val1 && val1 >= val2) {
+  console.log(val3, val1, val2);
+}
+if (val3 >= val2 && val2 >= val1) {
+  console.log(val3 + val2 + val1);
+}
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
